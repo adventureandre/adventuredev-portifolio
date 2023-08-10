@@ -2,7 +2,7 @@ import styled from "styled-components";
 import BackgroundImg from '../../img/background-1.jpeg'
 
 export const HomeConteinerBio = styled.section`
-  height: 80vh;
+  height: 85vh;
   position: relative;
 
   ::before {
