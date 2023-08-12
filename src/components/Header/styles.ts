@@ -5,9 +5,9 @@ export const HeaderConteiner = styled.header`
   flex-direction: row;
   justify-content: space-between;
 
-
+  width: 100%;
+  min-height: 50px;
   font-family: 'Poppins', sans-serif;
-  padding: 5px 60px;
 `
 
 export const HeaderTitle = styled.h1`

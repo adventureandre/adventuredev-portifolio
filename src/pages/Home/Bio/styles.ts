@@ -1,12 +1,15 @@
 import styled from "styled-components";
 
+
 export const BioConteiner = styled.section`
   display: flex;
   justify-content: center;
+  align-items: flex-end;
 
-  padding-top: 50px;
   width: 100%;
   height: 100%;
+  padding-bottom: 40px;
+
 `
 export const BioBox = styled.div`
   display: flex;
@@ -14,7 +17,6 @@ export const BioBox = styled.div`
   justify-content: center;
   align-items: center;
 
-  margin-top: 100px;
   background: ${(props) => props.theme['gray-700']};
   height: 350px;
   width: 310px;

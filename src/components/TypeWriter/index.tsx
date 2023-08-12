@@ -4,9 +4,10 @@ interface TypewriterProps {
     text: string;
     delay: number;
     className?: string;
+    element: "h1" | "span"
 }
 
-const Typewriter = ({text, delay, className,}: TypewriterProps) => {
+const Typewriter = ({text, delay, className, element}: TypewriterProps) => {
     const [displayText, setDisplayText] = useState('');
     const [index, setIndex] = useState(0);
 
@@ -23,11 +24,22 @@ const Typewriter = ({text, delay, className,}: TypewriterProps) => {
         };
     }, [index, text, delay]);
 
-    return (
-        <span className={className}>
+
+    if (element === "h1") {
+        return (
+            <h1 className={className}>
+                {displayText}
+            </h1>
+        );
+    } else {
+        return (
+            <span className={className}>
             {displayText}
         </span>
-    );
+        );
+    }
+
+
 };
 
 export default Typewriter;

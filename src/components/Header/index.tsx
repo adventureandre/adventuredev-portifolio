@@ -1,16 +1,16 @@
 import {HeaderConteiner, HeaderMenu, HeaderTitle} from "./styles.ts";
 
-export function Header(){
-    return(
+export function Header() {
+    return (
         <HeaderConteiner>
-            <HeaderTitle>André Luíz</HeaderTitle>
+            <HeaderTitle>ExpertDev</HeaderTitle>
             <HeaderMenu>
                 <ul>
-                    <li>HOME</li>
-                    <li>ABOUT</li>
-                    <li>SKILLS</li>
-                    <li>PORTFOLIO</li>
-                    <li>CONTATOS</li>
+                    <li><a href="#bio">HOME</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                    <li><a href="#skills">SKILLS</a></li>
+                    <li><a href="#portifolio">PORTFOLIO</a></li>
+                    <li><a href="#contatos">CONTATOS</a></li>
                 </ul>
             </HeaderMenu>
         </HeaderConteiner>

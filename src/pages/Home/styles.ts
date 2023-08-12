@@ -1,9 +1,19 @@
 import styled from "styled-components";
-import BackgroundImg from '../../img/background-1.jpeg'
 
-export const HomeConteinerBio = styled.section`
-  height: 85vh;
+
+import BackgroundImg from "../../assets/img/background-1.jpeg"
+import {Minus} from "phosphor-react";
+
+export const HomeConteinerBio = styled.main`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+
+  height: 600px;
   position: relative;
+  padding: 5px 65px;
+
 
   ::before {
     content: '';
@@ -19,4 +29,8 @@ export const HomeConteinerBio = styled.section`
     opacity: 0.05;
     z-index: -1;
   }
+`
+
+export const IconMinus = styled(Minus)`
+  margin-top: -40px;
 `
