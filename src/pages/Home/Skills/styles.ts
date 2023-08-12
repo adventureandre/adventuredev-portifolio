@@ -56,6 +56,7 @@ export const ItemBox = styled.div`
     transform: skewX(-10deg) scale(1.1);
     transition: 0.2s;
 
+
     &::after {
       content: "";
       display: block;
