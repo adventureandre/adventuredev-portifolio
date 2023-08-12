@@ -12,10 +12,18 @@ export function Bio() {
                 <Typewriter className='profile_name' text="André Luíz" delay={180} element='h1'/>
                 <Typewriter className='profile_desc' text="Desenvolvedor FullStack" delay={90} element='span'/>
                 <IconConteiner>
-                    <GithubLogo size={40} weight='fill' className='icon'/>
-                    <FacebookLogo size={40} weight='fill' className='icon'/>
-                    <LinkedinLogo size={40} weight='fill' className='icon'/>
-                    <InstagramLogo size={40} weight='fill' className='icon'/>
+                    <a href="https://github.com/adventureandre" target="_blank" rel="noopener noreferrer">
+                        <GithubLogo size={40} weight='fill' className='icon'/>
+                    </a>
+                    <a href="URL_DO_SEU_PERFIL_NO_FACEBOOK" target="_blank" rel="noopener noreferrer">
+                        <FacebookLogo size={40} weight='fill' className='icon'/>
+                    </a>
+                    <a href="https://www.linkedin.com/in/adventureandre" target="_blank" rel="noopener noreferrer">
+                        <LinkedinLogo size={40} weight='fill' className='icon'/>
+                    </a>
+                    <a href="https://www.instagram.com/adventureandre" target="_blank" rel="noopener noreferrer">
+                        <InstagramLogo size={40} weight='fill' className='icon'/>
+                    </a>
                 </IconConteiner>
             </BioBox>
         </BioConteiner>

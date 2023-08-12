@@ -16,11 +16,6 @@ export const SkillIcon = styled(Sliders)`
   color: ${(props) => props.theme['blue-300']};
 `
 
-export const SkillTitle = styled.h1`
-  font-size: 2rem;
-  margin-bottom: 10px;
-`
-
 export const Cards = styled.div`
   margin-top: 20px;
   display: flex;

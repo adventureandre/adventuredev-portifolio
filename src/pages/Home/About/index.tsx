@@ -1,5 +1,5 @@
-import {AboutConteiner, AboutDesc, AboutDescDestaque, AboutIcon, AboutTitle, Curriculo} from "./styles.ts";
-import {IconMinus} from "../styles.ts";
+import {AboutConteiner, AboutDesc, AboutDescDestaque, AboutIcon, Curriculo} from "./styles.ts";
+import {IconMinus, SectionTitle} from "../styles.ts";
 import {Download} from "phosphor-react";
 import CurriculoPDF from "../../../assets/Curriculo.pdf"
 
@@ -7,7 +7,7 @@ export function About() {
     return (
         <AboutConteiner id='about'>
             <AboutIcon size={80} weight="fill"/>
-            <AboutTitle>Sobre mim</AboutTitle>
+            <SectionTitle>Sobre mim</SectionTitle>
             <IconMinus size={65}/>
             <IconMinus size={30}/>
             <AboutDesc><AboutDescDestaque>Ola! Sou André Luíz</AboutDescDestaque>, Desenvolvedor Front-end com

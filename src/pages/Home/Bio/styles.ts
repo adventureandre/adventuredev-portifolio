@@ -52,4 +52,18 @@ export const IconConteiner = styled.div`
 
   display: flex;
   justify-content: space-around;
+
+  a {
+    color: ${(props) => props.theme.white};
+  }
+}
+
+.icon {
+  cursor: pointer;
+
+  &:hover {
+    transform: scale(1.5);
+    transition: 0.2s;
+  }
+
 `

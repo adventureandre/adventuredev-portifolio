@@ -13,11 +13,6 @@ export const AboutIcon = styled(Info)`
   margin-top: 15px;
   color: ${(props) => props.theme['blue-300']};
 `
-
-export const AboutTitle = styled.h1`
-  font-size: 2rem;
-  margin-bottom: 10px;
-`
 export const AboutDesc = styled.p`
   margin-top: 20px;
 `

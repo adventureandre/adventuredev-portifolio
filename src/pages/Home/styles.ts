@@ -34,3 +34,8 @@ export const HomeConteinerBio = styled.main`
 export const IconMinus = styled(Minus)`
   margin-top: -40px;
 `
+
+export const SectionTitle = styled.h1`
+  font-size: 2rem;
+  margin-bottom: 10px;
+`

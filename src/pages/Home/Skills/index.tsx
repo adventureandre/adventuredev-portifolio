@@ -1,5 +1,5 @@
-import {Cards, ItemBox, SkillIcon, SkillsConteiner, SkillTitle} from "./styles.ts";
-import {IconMinus} from "../styles.ts";
+import {Cards, ItemBox, SkillIcon, SkillsConteiner} from "./styles.ts";
+import {IconMinus, SectionTitle} from "../styles.ts";
 import iconHtml from '../../../assets/img/Skills/html.svg';
 import iconCss from '../../../assets/img/Skills/css.svg';
 import iconJs from '../../../assets/img/Skills/javascript.svg';
@@ -13,12 +13,13 @@ import iconPhp from '../../../assets/img/Skills/php.svg';
 export function Skills() {
     return (
         <SkillsConteiner id='skills'>
+
             <SkillIcon size={80}/>
-            <SkillTitle>Habilidades</SkillTitle>
+            <SectionTitle>Habilidades</SectionTitle>
             <IconMinus size={65}/>
             <IconMinus size={30}/>
 
-            <Cards>
+            <Cards data-aos="fade-right">
                 <ItemBox>
                     <span>HTML5</span>
                     <img src={iconHtml} alt="html"/>

@@ -37,8 +37,15 @@ export const HeaderMenu = styled.nav`
     font-weight: 600;
     font-size: 0.875rem;
 
-    &:hover {
-      color: ${(props) => props.theme['green-300']};
+    a {
+      color: ${(props) => props.theme.white};
+      text-decoration: none;
+
+      &:hover {
+        color: ${(props) => props.theme['green-300']};
+      }
     }
+
+
   }
 `
