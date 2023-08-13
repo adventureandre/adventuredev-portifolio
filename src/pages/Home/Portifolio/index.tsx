@@ -1,10 +1,10 @@
 import {
-    DestaqueCards,
-    DestaqueIten,
-    DestaqueItenDesc,
-    DestaqueTitle,
+    ContentCards,
+    ContentIten,
+    ContentItenDesc,
+    ContentTitle,
     PortifolioConteiner,
-    PortifolioDestaque,
+    PortifolioContent,
     PortifolioIcon
 } from "./styles.ts";
 import {IconMinus, SectionTitle} from "../styles.ts";
@@ -17,63 +17,47 @@ export function Portifolio() {
             <IconMinus size={65}/>
             <IconMinus size={30}/>
 
-            <PortifolioDestaque data-aos="fade-left">
-                <DestaqueTitle>Destaques:</DestaqueTitle>
-                <DestaqueCards>
+            <PortifolioContent data-aos="fade-left">
+                <ContentTitle>Destaques:</ContentTitle>
+                <ContentCards>
+                    <ContentIten>
+                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
+                        <ContentItenDesc>
+                            <h3>CafeControl</h3>
+                            <p>React ts JavaScript</p>
+                        </ContentItenDesc>
+                    </ContentIten>
+                </ContentCards>
 
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
-                    <DestaqueIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <DestaqueItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </DestaqueItenDesc>
-                    </DestaqueIten>
+            </PortifolioContent>
 
-                </DestaqueCards>
+            <PortifolioContent data-aos="fade-left">
+                <ContentTitle>Todos os projetos:</ContentTitle>
+                <ContentCards>
+                    <ContentIten>
+                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
+                        <ContentItenDesc>
+                            <h3>CafeControl</h3>
+                            <p>React ts JavaScript</p>
+                        </ContentItenDesc>
+                    </ContentIten>
+                    <ContentIten>
+                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
+                        <ContentItenDesc>
+                            <h3>CafeControl</h3>
+                            <p>React ts JavaScript</p>
+                        </ContentItenDesc>
+                    </ContentIten>
+                    <ContentIten>
+                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
+                        <ContentItenDesc>
+                            <h3>CafeControl</h3>
+                            <p>React ts JavaScript</p>
+                        </ContentItenDesc>
+                    </ContentIten>
+                </ContentCards>
 
-            </PortifolioDestaque>
+            </PortifolioContent>
 
         </PortifolioConteiner>
     )

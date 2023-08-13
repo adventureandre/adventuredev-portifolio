@@ -15,15 +15,16 @@ export const PortifolioIcon = styled(BagSimple)`
   margin-top: 15px;
   color: ${(props) => props.theme['blue-300']};
 `
-export const PortifolioDestaque = styled.div`
+export const PortifolioContent = styled.div`
   width: 100%;
+  margin-bottom: 50px;
 `
 
-export const DestaqueTitle = styled.h2`
+export const ContentTitle = styled.h2`
   font-size: 1.5rem;
   margin-bottom: 10px;
 `
-export const DestaqueCards = styled.div`
+export const ContentCards = styled.div`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -32,13 +33,17 @@ export const DestaqueCards = styled.div`
   margin-top: 25px;
 `
 
-export const DestaqueIten = styled.li`
+export const ContentIten = styled.li`
   display: flex;
   position: relative;
 
   min-width: 32%;
   height: 250px;
   transform: skewX(-10deg);
+  border-top-left-radius: 25px;
+  border: 2px solid ${(props) => props.theme['green-700']};
+  border-bottom: none;
+  overflow: hidden;
 
 
   &::after {
@@ -74,13 +79,13 @@ export const DestaqueIten = styled.li`
 
   img {
     width: 100%;
-    height: 100%;
+    height: auto;
   }
 
 
 `
 
-export const DestaqueItenDesc = styled.div`
+export const ContentItenDesc = styled.div`
   position: absolute;
   display: flex;
   flex-direction: column;
@@ -96,7 +101,7 @@ export const DestaqueItenDesc = styled.div`
   font-size: 1.1rem;
   margin-bottom: 0;
   transition: background 0.3s;
-  
+
 
   &:hover {
     background: transparent;
