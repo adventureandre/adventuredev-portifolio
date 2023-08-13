@@ -8,6 +8,7 @@ export const PortifolioConteiner = styled.section`
   background: ${(props) => props.theme['gray-800']};
 
   padding: 5px 65px;
+  width: 100%;
   padding-top: 0;
 `
 
@@ -30,7 +31,9 @@ export const ContentCards = styled.div`
   flex-wrap: wrap;
   gap: 10px;
   justify-content: center;
+
   margin-top: 25px;
+  width: 100%;
 `
 
 export const ContentIten = styled.li`
@@ -69,7 +72,7 @@ export const ContentIten = styled.li`
       display: block;
       position: absolute;
       width: 100%;
-      height: 0.2rem;
+      height: 0.4rem;
       background-image: linear-gradient(90deg, ${(props) => props.theme['green-700']} 0%, ${(props) => props.theme['green-300']} 92.32%);
       bottom: -0.1rem;
       left: 0;

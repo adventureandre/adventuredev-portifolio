@@ -17,23 +17,9 @@ export function Portifolio() {
             <IconMinus size={65}/>
             <IconMinus size={30}/>
 
-            <PortifolioContent data-aos="fade-left">
+            <PortifolioContent>
                 <ContentTitle>Destaques:</ContentTitle>
-                <ContentCards>
-                    <ContentIten>
-                        <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
-                        <ContentItenDesc>
-                            <h3>CafeControl</h3>
-                            <p>React ts JavaScript</p>
-                        </ContentItenDesc>
-                    </ContentIten>
-                </ContentCards>
-
-            </PortifolioContent>
-
-            <PortifolioContent data-aos="fade-left">
-                <ContentTitle>Todos os projetos:</ContentTitle>
-                <ContentCards>
+                <ContentCards data-aos="fade-right">
                     <ContentIten>
                         <img src="src/uploads/themovieguide.jpg" alt="imagen do projeto"/>
                         <ContentItenDesc>
@@ -56,7 +42,6 @@ export function Portifolio() {
                         </ContentItenDesc>
                     </ContentIten>
                 </ContentCards>
-
             </PortifolioContent>
 
         </PortifolioConteiner>
