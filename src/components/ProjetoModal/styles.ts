@@ -30,8 +30,6 @@ export const Content = styled(Dialog.Content)`
 
   gap: 2.5rem;
   animation: fade 1s;
-
-
 `
 
 export const VideoConteiner = styled.div`

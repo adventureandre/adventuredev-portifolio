@@ -7,6 +7,7 @@ import {Portifolio} from "./Portifolio";
 import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
+import {Contatos} from "./Contatos";
 
 export function Home() {
     useEffect(() => {
@@ -23,6 +24,7 @@ export function Home() {
             <About/>
             <Skills/>
             <Portifolio/>
+            <Contatos/>
         </>
     )
 }

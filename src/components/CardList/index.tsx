@@ -19,9 +19,9 @@ export function CardList({cards}: { cards: CardProps[] }) {
     return (
         <>
             {cards.map((card, index) => (
-                <Dialog.Root>
+                <Dialog.Root key={index}>
                     <Dialog.Trigger asChild>
-                        <ContentIten key={index}>
+                        <ContentIten>
                             <img src={card.img} alt={`Imagem do projeto ${card.title}`}/>
                             <ContentItenDesc>
 

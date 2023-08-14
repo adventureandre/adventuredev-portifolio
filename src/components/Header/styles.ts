@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import {List} from "phosphor-react";
 
 export const HeaderConteiner = styled.header`
   display: flex;
@@ -45,7 +46,18 @@ export const HeaderMenu = styled.nav`
         color: ${(props) => props.theme['green-300']};
       }
     }
-
-
   }
+
+  @media (max-width: 780px) {
+    display: none;
+  }
+`
+
+export const MenuIcon = styled(List)`
+  display: none;
+  margin-right: -30px;
+  @media (max-width: 780px) {
+    display: block;
+  }
+
 `

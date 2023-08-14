@@ -4,7 +4,8 @@ export const ContentIten = styled.div`
   display: flex;
   position: relative;
 
-  min-width: 30%;
+  min-width: 350px;
+  width: 30%;
   height: 250px;
   transform: skewX(-10deg);
   border-top-left-radius: 25px;
