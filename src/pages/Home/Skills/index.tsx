@@ -8,6 +8,8 @@ import iconReact from '../../../assets/img/Skills/react.svg';
 import iconNext from '../../../assets/img/Skills/next.svg';
 import iconRedux from '../../../assets/img/Skills/redux.svg';
 import iconPhp from '../../../assets/img/Skills/php.svg';
+import iconTailwind from '../../../assets/img/Skills/tailwindcss.svg';
+import iconMaterialui from '../../../assets/img/Skills/materialui.svg';
 
 
 export function Skills() {
@@ -51,6 +53,14 @@ export function Skills() {
                 <ItemBox>
                     <span>PHP</span>
                     <img src={iconPhp} alt="php"/>
+                </ItemBox>
+                <ItemBox>
+                    <span>TailwindCss</span>
+                    <img src={iconTailwind} alt="TailwindCss"/>
+                </ItemBox>
+                <ItemBox>
+                    <span>Material UI</span>
+                    <img src={iconMaterialui} alt="Material UI"/>
                 </ItemBox>
             </Cards>
         </SkillsConteiner>
