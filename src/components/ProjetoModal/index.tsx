@@ -29,7 +29,7 @@ export function ProjetoModal({card}: { card: CardProps }) {
                     <Descricao/>
 
                 </ContentDesc>
-                <CloseButton><X size={20}/></CloseButton>
+                <CloseButton><X size={25}/></CloseButton>
             </Content>
         </Dialog.Portal>
     )

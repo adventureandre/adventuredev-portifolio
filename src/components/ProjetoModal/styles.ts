@@ -10,8 +10,8 @@ export const Overlay = styled(Dialog.Overlay)`
 `
 
 export const Content = styled(Dialog.Content)`
-  min-width: 30rem;
   width: 75%;
+  max-height: 100vh;
   border-radius: 7px;
   padding: 5px 10px;
   background: ${(props) => props.theme['gray-800']};
@@ -30,6 +30,12 @@ export const Content = styled(Dialog.Content)`
 
   gap: 2.5rem;
   animation: fade 1s;
+
+  @media (max-width: 1280px) {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 95%;
+  }
 `
 
 export const VideoConteiner = styled.div`
@@ -38,7 +44,10 @@ export const VideoConteiner = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  min-width: 30rem;
+
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
 
   div {
     display: flex;
@@ -53,11 +62,14 @@ export const VideoConteiner = styled.div`
       background-image: linear-gradient(90deg, ${(props) => props.theme['green-500']} .2%, ${(props) => props.theme['green-700']} 100%);
       border-radius: 0.5rem;
       text-decoration: none;
+      text-align: center;
+
     }
   }
 
   iframe {
-    width: 500px;
+    margin-top: 30px;
+    width: 100%;
     min-height: 300px;
 
     &:focus {
@@ -72,6 +84,11 @@ export const ContentDesc = styled.div`
   display: flex;
   flex-direction: column;
   padding-top: 5px;
+  max-height: 95vh;
+
+  @media (max-width: 1280px) {
+    width: 100%;
+  }
 `
 
 export const ContentTitle = styled(Dialog.Title)`
@@ -88,5 +105,7 @@ export const CloseButton = styled(Dialog.Close)`
   right: 1.5rem;
   line-height: 0;
   cursor: pointer;
-  color: ${(props) => props.theme['gray-500']};
+  color: ${(props) => props.theme.white};
+  box-shadow: 0 0 50px rgb(53, 182, 148);
+
 `
