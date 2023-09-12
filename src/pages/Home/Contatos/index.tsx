@@ -9,7 +9,7 @@ export function Contatos() {
             <SectionTitle>Contatos</SectionTitle>
             <IconMinus size={65}/>
             <IconMinus size={30}/>
-            <ContatosContent>
+            <ContatosContent data-aos="fade-right">
                 <ContatoBox href="https://github.com/adventureandre" target="_blank">
                     <GithubLogo className='icon' size={52}/>
                     <h3>GitHub</h3>
