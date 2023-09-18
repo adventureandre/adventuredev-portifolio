@@ -47,5 +47,16 @@ export const Cards: CardProps[] = [
         skills: "React - ContextAPI - useReducer",
         img: "uploads/Ignite-timer.png",
         video: "https://streamable.com/e/ohsnpv"
+    }, {
+        title: "DT-Money",
+        desc: (<>Nesse módulo construiremos uma aplicação front-end web completa, conectando a uma API e veremos
+            como performar aplicações com o React entendendo como funcionam os algoritmos
+            internos da biblioteca e todo fluxo de renderização de componentes.</>),
+        git: "https://github.com/adventureandre/03-dt-money",
+        link: "#",
+        linkedin: "",
+        skills: "React - API - Renderização",
+        img: "uploads/DT-money.png",
+        video: "https://streamable.com/e/vw52ae"
     }
 ];
