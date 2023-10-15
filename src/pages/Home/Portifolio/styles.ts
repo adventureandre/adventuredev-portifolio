@@ -7,9 +7,8 @@ export const PortifolioConteiner = styled.section`
   align-items: center;
   background: ${(props) => props.theme['gray-800']};
 
-  padding: 5px 65px;
   width: 100%;
-  padding-top: 0;
+  padding: 0 65px 5px;
 `
 
 export const PortifolioIcon = styled(BagSimple)`

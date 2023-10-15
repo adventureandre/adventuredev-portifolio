@@ -67,10 +67,12 @@ export const VideoConteiner = styled.div`
     }
   }
 
-  iframe {
+  video {
     margin-top: 30px;
+    margin-bottom: 10px;
     width: 100%;
     min-height: 300px;
+    border-radius: 6px;
 
     &:focus {
       outline: 0;

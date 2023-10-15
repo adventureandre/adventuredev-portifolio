@@ -14,7 +14,13 @@ export function ProjetoModal({card}: { card: CardProps }) {
             <Overlay/>
             <Content>
                 <VideoConteiner>
-                    <iframe src={card.video} frameBorder="0" allowFullScreen></iframe>
+
+                    <video controls>
+                        <source src={card.video} type="video/mp4"/>
+                        Seu navegador não suporta a tag de vídeo.
+                    </video>
+
+                    {/*<iframe src={card.video} frameBorder="0" allowFullScreen></iframe>*/}
                     <div>
                         <a href={card.link} target="_blank" className="link-project">Acessar projeto</a>
                         <a href={card.git} target="_blank" className="link-repository">Acessar repositório</a>
