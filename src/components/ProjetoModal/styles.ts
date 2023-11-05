@@ -111,3 +111,14 @@ export const CloseButton = styled(Dialog.Close)`
   box-shadow: 0 0 50px rgb(53, 182, 148);
 
 `
+
+export const DescricaoScrollable = styled.div`
+  max-height: unset;
+  overflow-y: unset;
+
+  @media (max-width: 768px) {
+    max-height: 200px;
+    overflow-y: auto;
+
+  }
+`

@@ -4,6 +4,8 @@ import {CardList} from "../../../components/CardList";
 import {Cards} from "../../../Dados.tsx";
 
 export function Portifolio() {
+    const destaques = Cards.filter(card => card.destaque);
+    const outrosProjetos = Cards.filter(card => !card.destaque);
 
     return (
         <PortifolioConteiner id='portifolio'>
@@ -15,14 +17,14 @@ export function Portifolio() {
             <PortifolioContent>
                 <ContentTitle>Destaques:</ContentTitle>
                 <ContentCards data-aos="fade-right">
-                    <CardList cards={Cards}/>
+                    <CardList cards={destaques}/>
                 </ContentCards>
             </PortifolioContent>
 
             <PortifolioContent>
                 <ContentTitle>Todos os projetos:</ContentTitle>
                 <ContentCards data-aos="fade-right">
-                    <CardList cards={Cards}/>
+                    <CardList cards={outrosProjetos}/>
                 </ContentCards>
             </PortifolioContent>
 

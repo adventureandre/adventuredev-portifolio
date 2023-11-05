@@ -1,12 +1,24 @@
 import * as Dialog from "@radix-ui/react-dialog";
-import {CloseButton, Content, ContentDesc, ContentTitle, Overlay, VideoConteiner} from "./styles.ts";
+import {
+    CloseButton,
+    Content,
+    ContentDesc,
+    ContentTitle,
+    DescricaoScrollable,
+    Overlay,
+    VideoConteiner
+} from "./styles.ts";
 import {CardProps} from "../CardList";
 import {X} from "phosphor-react";
 
 
 export function ProjetoModal({card}: { card: CardProps }) {
     function Descricao() {
-        return <p>{card.desc}</p>
+        return (
+            <DescricaoScrollable>
+                <p>{card.desc}</p>
+            </DescricaoScrollable>
+        )
     }
 
     return (

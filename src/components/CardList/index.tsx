@@ -12,6 +12,7 @@ export interface CardProps {
     link: string;
     git: string;
     linkedin: string;
+    destaque: boolean;
 
 }
 
