@@ -25,6 +25,30 @@ export const Cards: CardProps[] = [
 
     },
     {
+        title: 'Design-System',
+        desc: (
+            <>
+            A aplicação "Design-System" é o resultado excepcional da minha jornada de aprendizado na Rocketseat.
+            <br /><br />
+            Durante este curso, adquiri conhecimentos em tecnologias como React, MonoRepo, TurboRepo (incluindo o modo de deploy via GitHub),
+            realização de deploy no GitHub e, adicionalmente, publicação do MonoRepo no Npm, além de aprender sobre conceitos fundamentais
+            de Webservice e REST API, entre outros.
+            <br /><br />
+            Esta experiência proporcionou-me um entendimento sólido das bases de um Design System e a habilidade de criar
+            componentes reutilizáveis, robustos e seguros.
+          </>
+          
+        ),
+        video: "uploads/videos/design-sistem.mp4",
+        skills: "React - Storybook",
+        img: "uploads/images/Design-System.png",
+        link: "https://adventureandre.github.io/ADVFW-design-system/?path=/docs/home--docs",
+        git: "https://github.com/adventureandre/ADVFW-design-system",
+        linkedin: "https://www.linkedin.com/in/adventureandre",
+        destaque: false
+
+    },
+    {
         title: "Ignite Timer",
         desc: (<>Nesse módulo iremos construir uma aplicação completa com roteamento e diversos conceitos importantes do
             ecossistema React como ContextAPI, useReducer, immer e muito mais.</>),

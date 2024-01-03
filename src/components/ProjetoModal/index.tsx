@@ -8,11 +8,13 @@ import {
     Overlay,
     VideoConteiner
 } from "./styles.ts";
-import {CardProps} from "../CardList";
-import {X} from "phosphor-react";
+import { CardProps } from "../CardList";
+import { X } from "phosphor-react";
 
 
-export function ProjetoModal({card}: { card: CardProps }) {
+export function ProjetoModal({ card }: { card: CardProps }) {
+console.log(card.video.endsWith('.webm'));
+
     function Descricao() {
         return (
             <DescricaoScrollable>
@@ -23,14 +25,16 @@ export function ProjetoModal({card}: { card: CardProps }) {
 
     return (
         <Dialog.Portal>
-            <Overlay/>
+            <Overlay />
             <Content>
                 <VideoConteiner>
-
-                    <video controls>
-                        <source src={card.video} type="video/mp4"/>
-                        Seu navegador não suporta a tag de vídeo.
-                    </video>
+                    {card.video && (
+                        <video controls>
+                            {card.video.endsWith('.webm') && <source src={card.video} type="video/webm" />}
+                            {card.video.endsWith('.mp4') && <source src={card.video} type="video/mp4" />}
+                            Seu navegador não suporta a tag de vídeo.
+                        </video>
+                    )}
 
                     {/*<iframe src={card.video} frameBorder="0" allowFullScreen></iframe>*/}
                     <div>
@@ -44,10 +48,10 @@ export function ProjetoModal({card}: { card: CardProps }) {
                 <ContentDesc>
                     <ContentTitle>{card.title}</ContentTitle>
 
-                    <Descricao/>
+                    <Descricao />
 
                 </ContentDesc>
-                <CloseButton><X size={25}/></CloseButton>
+                <CloseButton><X size={25} /></CloseButton>
             </Content>
         </Dialog.Portal>
     )
