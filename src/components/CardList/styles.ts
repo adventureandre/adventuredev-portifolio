@@ -1,3 +1,4 @@
+import  Marquee  from 'react-fast-marquee';
 import styled from "styled-components";
 
 export const ContentIten = styled.div`
@@ -74,7 +75,7 @@ export const ContentItenDesc = styled.div`
   &:hover {
     background: transparent;
 
-    h3, p {
+    h3, p, div {
       display: none;
       transition: 0.3s;
     }
@@ -88,6 +89,27 @@ export const ContentItenDesc = styled.div`
 
   p {
     color: ${(props) => props.theme.white};
+    margin-right: 5px;
   }
-
 `
+
+ export const ContainerMarqueee = styled(Marquee)`
+  width: 50%;
+  height: 100px;
+  `
+
+  export const ContainerIcon = styled.div`
+  margin-right: 5px;
+  height: 75px;
+  overflow: hidden;
+  text-align: center;
+
+  img{
+    width: 50px;
+    
+  }
+  p{
+  text-align: center;
+  width: 100%;
+  }
+  `

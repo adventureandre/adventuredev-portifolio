@@ -24,43 +24,43 @@ export function Skills() {
             <Cards data-aos="fade-right">
                 <ItemBox>
                     <span>HTML5</span>
-                    <img src={iconHtml} alt="html"/>
+                    <img src='../../../assets/img/Skills/html.svg' alt="html"/>
                 </ItemBox>
                 <ItemBox>
                     <span>CSS3</span>
-                    <img src={iconCss} alt="Css3"/>
+                    <img src='../../../assets/img/Skills/css.svg' alt="Css3"/>
                 </ItemBox>
                 <ItemBox>
                     <span>JavaScript</span>
-                    <img src={iconJs} alt="JavaScript"/>
+                    <img src='../../../assets/img/Skills/javascript.svg' alt="JavaScript"/>
                 </ItemBox>
                 <ItemBox>
                     <span>TypeScript</span>
-                    <img src={iconTs} alt="TypeScript"/>
+                    <img src='../../../assets/img/Skills/typescript.svg' alt="TypeScript"/>
                 </ItemBox>
                 <ItemBox>
                     <span>React</span>
-                    <img src={iconReact} alt="react"/>
+                    <img src='../../../assets/img/Skills/react.svg' alt="react"/>
                 </ItemBox>
                 <ItemBox>
                     <span>Next</span>
-                    <img src={iconNext} alt="next"/>
+                    <img src='../../../assets/img/Skills/next.svg' alt="next"/>
                 </ItemBox>
                 <ItemBox>
                     <span>Redux</span>
-                    <img src={iconRedux} alt="redux"/>
+                    <img src='../../../assets/img/Skills/redux.svg' alt="redux"/>
                 </ItemBox>
                 <ItemBox>
                     <span>PHP</span>
-                    <img src={iconPhp} alt="php"/>
+                    <img src='../../../assets/img/Skills/php.svg' alt="php"/>
                 </ItemBox>
                 <ItemBox>
                     <span>TailwindCss</span>
-                    <img src={iconTailwind} alt="TailwindCss"/>
+                    <img src='../../../assets/img/Skills/tailwindcss.svg' alt="TailwindCss"/>
                 </ItemBox>
                 <ItemBox>
                     <span>Material UI</span>
-                    <img src={iconMaterialui} alt="Material UI"/>
+                    <img src='../../../assets/img/Skills/materialui.svg' alt="Material UI"/>
                 </ItemBox>
             </Cards>
         </SkillsConteiner>

@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 
-import BackgroundImg from "../../assets/img/background-1.jpeg"
 import {Minus} from "phosphor-react";
 
 export const HomeConteinerBio = styled.main`
@@ -17,7 +16,7 @@ export const HomeConteinerBio = styled.main`
 
   ::before {
     content: '';
-    background-image: url(${BackgroundImg});
+    background-image: url('../../../../public/assets/img/background-1.jpeg');
     background-size: cover;
     background-position: center;
 
