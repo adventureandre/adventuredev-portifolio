@@ -16,7 +16,7 @@ export const Cards: CardProps[] = [
             </>
         ),
         video: "uploads/videos/cafecontrol.mp4",
-        skills: "PHP - MySql",
+        skills: ["php", "mysql","html"],
         img: "uploads/images/CafeControl.png",
         link: "https://cafecontrol.adventure.dev.br",
         git: "https://github.com/adventureandre",
@@ -40,7 +40,7 @@ export const Cards: CardProps[] = [
           
         ),
         video: "uploads/videos/design-sistem.mp4",
-        skills: "React - Storybook",
+        skills: ["react", "storybook"],
         img: "uploads/images/Design-System.png",
         link: "https://adventureandre.github.io/ADVFW-design-system/?path=/docs/home--docs",
         git: "https://github.com/adventureandre/ADVFW-design-system",
@@ -55,7 +55,7 @@ export const Cards: CardProps[] = [
         git: "https://github.com/adventureandre/02-ignite-timer",
         link: "https://ignite-timer.adventure.dev.br",
         linkedin: "https://www.linkedin.com/in/adventureandre",
-        skills: "React - ContextAPI - useReducer",
+        skills: ["react", "api", "hook"],
         img: "uploads/images/Ignite-timer.png",
         video: "uploads/videos/Ignite-timer.mp4",
         destaque: true
@@ -68,7 +68,7 @@ export const Cards: CardProps[] = [
         git: "https://github.com/adventureandre/03-dt-money",
         link: "#",
         linkedin: "https://www.linkedin.com/in/adventureandre",
-        skills: "React - API - Renderização",
+        skills: ["react", "api", "html"],
         img: "uploads/images/money.png",
         video: "uploads/videos/money.mp4",
         destaque: true
@@ -85,7 +85,7 @@ export const Cards: CardProps[] = [
         git: "https://github.com/adventureandre/",
         link: "#",
         linkedin: "https://www.linkedin.com/in/adventureandre",
-        skills: "React,PHP - API- REST",
+        skills: ["react",  "php",  "api"],
         img: "uploads/images/CP.png",
         video: "uploads/videos/CP.mp4",
         destaque: false
@@ -102,7 +102,7 @@ export const Cards: CardProps[] = [
         git: "https://github.com/adventureandre/",
         link: "https://www.funilariaepintura.com.br/",
         linkedin: "https://www.linkedin.com/in/adventureandre",
-        skills: "PHP - OOP",
+        skills: ["php", "css","javascript"],
         img: "uploads/images/Funilariaepintura.png",
         video: "uploads/videos/funilariaepintura.mp4",
         destaque: false

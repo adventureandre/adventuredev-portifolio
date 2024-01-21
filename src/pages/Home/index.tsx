@@ -4,10 +4,13 @@ import {About} from "./About";
 import {HomeConteinerBio} from "./styles.ts";
 import {Skills} from "./Skills";
 import {Portifolio} from "./Portifolio";
+import {Contatos} from "./Contatos";
+
+
 import {useEffect} from "react";
 import AOS from 'aos';
 import 'aos/dist/aos.css'
-import {Contatos} from "./Contatos";
+
 
 export function Home() {
     useEffect(() => {

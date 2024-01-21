@@ -13,7 +13,6 @@ import { X } from "phosphor-react";
 
 
 export function ProjetoModal({ card }: { card: CardProps }) {
-console.log(card.video.endsWith('.webm'));
 
     function Descricao() {
         return (
