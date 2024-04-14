@@ -37,10 +37,9 @@ export function ProjetoModal({ card }: { card: CardProps }) {
 
                     {/*<iframe src={card.video} frameBorder="0" allowFullScreen></iframe>*/}
                     <div>
-                        <a href={card.link} target="_blank" className="link-project">Acessar projeto</a>
-                        <a href={card.git} target="_blank" className="link-repository">Acessar repositório</a>
-                        <a href={card.linkedin} target="_blank" className="link-linkedin">Ver post no Linkedin</a>
-
+                        {card.link && <a href={card.link} target="_blank" className="link-project">Acessar projeto</a>}
+                        {card.git && <a href={card.git} target="_blank" className="link-repository">Acessar repositório</a>}
+                        {card.linkedin && <a href={card.linkedin} target="_blank" className="link-linkedin">Ver post no Linkedin</a>}
                     </div>
                 </VideoConteiner>
 

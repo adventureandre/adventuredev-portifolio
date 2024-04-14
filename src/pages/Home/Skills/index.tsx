@@ -1,15 +1,5 @@
 import {Cards, ItemBox, SkillIcon, SkillsConteiner} from "./styles.ts";
 import {IconMinus, SectionTitle} from "../styles.ts";
-import iconHtml from '../../../assets/img/Skills/html.svg';
-import iconCss from '../../../assets/img/Skills/css.svg';
-import iconJs from '../../../assets/img/Skills/javascript.svg';
-import iconTs from '../../../assets/img/Skills/typescript.svg';
-import iconReact from '../../../assets/img/Skills/react.svg';
-import iconNext from '../../../assets/img/Skills/next.svg';
-import iconRedux from '../../../assets/img/Skills/redux.svg';
-import iconPhp from '../../../assets/img/Skills/php.svg';
-import iconTailwind from '../../../assets/img/Skills/tailwindcss.svg';
-import iconMaterialui from '../../../assets/img/Skills/materialui.svg';
 
 
 export function Skills() {
@@ -47,8 +37,16 @@ export function Skills() {
                     <img src='../../../assets/img/Skills/next.svg' alt="next"/>
                 </ItemBox>
                 <ItemBox>
+                    <span>Stripe</span>
+                    <img src='../../../assets/img/Skills/stripe.svg' alt="stripe"/>
+                </ItemBox>
+                <ItemBox>
                     <span>Redux</span>
                     <img src='../../../assets/img/Skills/redux.svg' alt="redux"/>
+                </ItemBox>
+                <ItemBox>
+                    <span>ReactQuery</span>
+                    <img src='../../../assets/img/Skills/reactquery.svg' alt="react-query"/>
                 </ItemBox>
                 <ItemBox>
                     <span>PHP</span>
@@ -61,6 +59,10 @@ export function Skills() {
                 <ItemBox>
                     <span>Material UI</span>
                     <img src='../../../assets/img/Skills/materialui.svg' alt="Material UI"/>
+                </ItemBox>
+                <ItemBox>
+                    <span>Figma</span>
+                    <img src='../../../assets/img/Skills/figma.svg' alt="figma"/>
                 </ItemBox>
             </Cards>
         </SkillsConteiner>

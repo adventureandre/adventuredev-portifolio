@@ -11,24 +11,19 @@ export function About() {
             <IconMinus size={65}/>
             <IconMinus size={30}/>
             <AboutDesc>
-                <AboutDescDestaque>Ola! Sou André Luíz</AboutDescDestaque>, Desenvolvedor
-                Front-end com experiência em{" "}
-                <AboutDescDestaque>
-                    React.js, Next.js, Redux, JavaScript, TypeScript, PHP, Styled
-                    Components, Material UI e consumo de APIs REST
-                </AboutDescDestaque>
-                . Um entusiasta da programação e apaixonado por criar aplicações web
-                inovadoras. Tenho vasta experiência no desenvolvimento de soluções
-                escaláveis e eficientes, utilizando tecnologias de ponta para proporcionar
-                a melhor experiência aos usuários.
-            </AboutDesc>
+    <AboutDescDestaque>Olá! Eu sou André Luíz,</AboutDescDestaque> Desenvolvedor de Software desde 2012, mergulhando inicialmente no universo do PHP. Desde então, trilhei uma jornada de aprimoramento contínuo, expandindo meu conhecimento e habilidades para abranger um amplo espectro de tecnologias, destacando-se {" "}
+    <AboutDescDestaque>
+        React.js, Next.js, Redux, JavaScript, TypeScript, Styled Components, Stitches, Prisma, Storybook, além do PHP.{" "} 
+    </AboutDescDestaque>
+    Minha paixão pela programação é incessante, impulsionando-me a uma busca constante por inovação e excelência. Com uma sólida bagagem em metodologias ágeis, como Scrum e Kanban, estou preparado para enfrentar desafios e entregar soluções de alta qualidade de forma eficiente e colaborativa.
+</AboutDesc>
             <Curriculo
                 href={CurriculoPDF}
                 target="_blank"
                 rel="noopener noreferrer"
             >
                 Download CV{" "}
-                <Download size={15} weight="bold"/>
+                <Download size={15} weight="bold"/>                     
             </Curriculo>
         </AboutConteiner>
     );

@@ -40,6 +40,7 @@ export const Content = styled(Dialog.Content)`
 
 export const VideoConteiner = styled.div`
   width: 50%;
+  max-height: 800px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
