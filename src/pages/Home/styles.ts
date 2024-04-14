@@ -1,25 +1,22 @@
 import styled from "styled-components";
 
+import Background from '../../assets/background-1.jpeg';
 
-import {Minus} from "phosphor-react";
+import { Minus } from "phosphor-react";
 
 export const HomeConteinerBio = styled.main`
   display: flex;
   flex-direction: column;
   align-items: center;
-
-
   height: 600px;
   position: relative;
   padding: 5px 65px;
 
-
   ::before {
     content: '';
-    background-image: url('../../../../public/assets/img/background-1.jpeg');
+    background-image: url(${Background});
     background-size: cover;
     background-position: center;
-
     position: absolute;
     width: 100%;
     height: 100%;

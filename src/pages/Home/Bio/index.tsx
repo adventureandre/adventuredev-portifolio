@@ -1,5 +1,5 @@
 import {BioBox, BioConteiner, IconConteiner} from "./styles.ts";
-import Avatar from "../../../../public/assets/img/andre-avatar.jpg"
+import Avatar from "../../../assets/andre-avatar.jpg"
 import Typewriter from "../../../components/TypeWriter";
 import {FacebookLogo, GithubLogo, InstagramLogo, LinkedinLogo} from "phosphor-react";
 
