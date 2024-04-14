@@ -45,7 +45,7 @@ export const Cards: CardProps[] = [
         link: "https://adventureandre.github.io/ADVFW-design-system/?path=/docs/home--docs",
         git: "https://github.com/adventureandre/ADVFW-design-system",
         linkedin: "https://www.linkedin.com/in/adventureandre",
-        destaque: false
+        destaque: true
 
     },
     {
@@ -58,7 +58,7 @@ export const Cards: CardProps[] = [
         skills: ["react", "api", "hook"],
         img: "uploads/images/Ignite-timer.png",
         video: "uploads/videos/Ignite-timer.mp4",
-        destaque: true
+        destaque: false
     },
     {
         title: "DT-Money",
@@ -71,7 +71,7 @@ export const Cards: CardProps[] = [
         skills: ["react", "api", "html"],
         img: "uploads/images/money.png",
         video: "uploads/videos/money.mp4",
-        destaque: true
+        destaque: false
     },
     {
         title: "CP-Peças",
@@ -83,7 +83,7 @@ export const Cards: CardProps[] = [
             de vendas de peças esteja na vanguarda da inovação e pronto para atender às necessidades do mercado
             automotivo.</>),
         git: "https://github.com/adventureandre/",
-        link: "#",
+        link: "",
         linkedin: "https://www.linkedin.com/in/adventureandre",
         skills: ["react",  "php",  "api"],
         img: "uploads/images/CP.png",
@@ -106,5 +106,44 @@ export const Cards: CardProps[] = [
         img: "uploads/images/Funilariaepintura.png",
         video: "uploads/videos/funilariaepintura.mp4",
         destaque: false
+    },
+    {
+        title: "TODO-Ignite",
+        desc: ( <>
+            Este projeto foi criado como parte de um desafio do curso de React Native da Rocketseat, o Ignite. Desenvolvido utilizando a framework React Native, o TODO-Ignite é um aplicativo móvel que representa uma solução para um desafio específico proposto durante o curso.
+            O desafio proporcionou uma oportunidade prática para aplicar os conhecimentos adquiridos ao longo do curso, abordando aspectos específicos do desenvolvimento de aplicativos móveis com React Native.
+        </>),
+        git: "https://github.com/adventureandre/tudo-reactnative-ignite",
+        link: "",
+        linkedin: "https://www.linkedin.com/in/adventureandre",
+        skills: ["react-native","javascript"],
+        img: "uploads/images/Todo-Ignite.png",
+        video: "uploads/videos/Todo-ignite.mp4",
+        destaque: false
+    },
+    {
+        "title": "SHOP-Ignite",
+        "desc": "Nesse módulo criamos um projeto completo com o framework Next.js. Utilizamos StitchesJS, passando por conceitos de SPA, server-side rendering (SSR) e static-site generation (SSG). Este projeto foi criado como parte do módulo de React JS da Rocketseat, o Ignite, mas foi desenvolvido utilizando o framework Next.js. O SHOP-Ignite foi uma aplicação web que representava uma solução para um desafio específico proposto durante o curso. O módulo proporcionou uma oportunidade prática para aplicar os conhecimentos adquiridos ao longo do curso, abordando aspectos específicos do desenvolvimento com React JS e Next.js.",
+        "git": "https://github.com/adventureandre/IGNITE-SHOP-ROCKETSEAT",
+        "link": "https://ignite-shop.adventure.dev.br/",
+        "linkedin": "https://www.linkedin.com/in/adventureandre",
+        "skills": ["next","stripe","api"],
+        "img": "uploads/images/ignite-shop.png",
+        "video": "uploads/videos/ignite-shop.mp4",
+        "destaque": true
+    },
+
+    {
+        "title": "Call-Ignite",
+        "desc": "Utilizando Design System, criamos uma aplicação completa até o deploy. Abordaremos rotas autenticadas no Next.js, integração com Google Calendar, validações e muito mais!",
+        "git": "https://github.com/adventureandre/06-ignite-call",
+        "link": "https://ignitecall.adventure.dev.br/",
+        "linkedin": "https://www.linkedin.com/in/adventureandre",
+        "skills": ["next","prisma","api","vercel","neon"],
+        "img": "uploads/images/ignite-call.png",
+        "video": "uploads/videos/ignite-call.mp4",
+        "destaque": true
     }
+    
+    
 ];
